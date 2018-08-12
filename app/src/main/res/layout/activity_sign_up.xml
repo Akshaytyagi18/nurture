@@ -1,0 +1,186 @@
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <EditText
+                android:id="@+id/editText10"
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="148dp"
+                android:background="?android:attr/colorButtonNormal"
+                android:ems="10"
+                android:hint="Username"
+                android:inputType="textEmailAddress" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView7"
+                android:layout_centerHorizontal="true"
+                app:passwordToggleEnabled="true">
+
+                <EditText
+                    android:id="@+id/editText8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="41dp"
+                    android:layout_alignTop="@+id/imageView3"
+                    android:layout_centerHorizontal="true"
+                    android:background="?attr/colorButtonNormal"
+                    android:ems="10"
+                    android:hint="Password"
+                    android:inputType="numberPassword" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView4"
+                android:layout_alignEnd="@+id/editText10"
+                app:passwordToggleEnabled="true">
+
+                <EditText
+                    android:id="@+id/editText9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="41dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/imageView4"
+                    android:background="?attr/colorButtonNormal"
+                    android:ems="10"
+                    android:hint="Confirm Password"
+                    android:inputType="numberPassword" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="121dp"
+                android:layout_height="20dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="235dp"
+                android:layout_marginTop="409dp"
+                android:background="#e3e5f3" />
+
+            <RadioGroup
+                android:layout_width="98dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="false"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="15dp"
+                android:layout_marginTop="400dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="#f8dca4"
+                    android:text="Male"
+                    android:textSize="15dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#fbcece"
+                    android:text="Female"
+                    android:textSize="15dp" />
+            </RadioGroup>
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="465dp"
+                android:text="I hereby agree with all terms and conditions of the app and abide by them." />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="44dp"
+                android:layout_height="43dp"
+                android:layout_alignTop="@+id/editText10"
+                android:layout_toStartOf="@+id/editText10"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/user" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="44dp"
+                android:layout_height="43dp"
+                android:layout_alignEnd="@+id/imageView"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="291dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/pass" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="43dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="180dp"
+                android:layout_marginTop="399dp"
+                android:gravity="center"
+                android:text="Gender"
+                android:textColor="#070000"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="250dp"
+                android:layout_height="86dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="27dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/sig" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="45dp"
+                android:layout_height="40dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="218dp"
+                android:layout_toStartOf="@+id/editText10"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/pass" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="510dp"
+                android:text="Sign UP"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="80dp"
+                android:layout_height="91dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/sig2" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="compliment">
+        <item name="android:textColor">#6A5ACD</item>
+        <item name="android:fontFamily">@font/amita_bold</item>
+    </style>
+
+    <style name="blue">
+        <item name="android:textColor">#3e9af1</item>
+        <item name="android:fontFamily">serif</item>
+    </style>
+
+</resources>
